@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LoginRegisterSQLite" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Theme.LoginRegisterSQLite" parent="Base.Theme.LoginRegisterSQLite" />
+
+    <style name="inputLogin">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!--        <item name="android:layout_marginStart">20dp</item>-->
+        <!--        <item name="android:layout_marginTop">15dp</item>-->
+        <!--        <item name="android:layout_marginEnd">20dp</item>-->
+        <!--        <item name="android:layout_marginBottom">10dp</item>-->
+        <item name="android:padding">15dp</item>
+        <item name="android:backgroundTint">#00FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+
+    <style name="marginLogin_Register">
+        <item name="android:layout_marginStart">25dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginEnd">25dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+</resources>
